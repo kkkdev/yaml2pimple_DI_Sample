@@ -1,0 +1,9 @@
+parameters:
+  name: aaa
+
+services:
+  apiAdapter:
+    class:	APIAdapter
+    arguments:  [@api]
+  api:
+    class:	FakeAPI
